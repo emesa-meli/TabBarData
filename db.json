@@ -1,8 +1,4 @@
-{
-    "theme": "old",
-    "trackingEnabled": false,
-    "siteId": "MLU",
-    
+{   
     "definitions": [
         {
             "tabId": "home",
@@ -51,3 +47,4 @@
         }
     ]
 }
+
