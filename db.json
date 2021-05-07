@@ -1,22 +1,53 @@
 {
-    "glossary": {
-        "title": "example glossary",
-		"GlossDiv": {
-            "title": "S",
-			"GlossList": {
-                "GlossEntry": {
-                    "ID": "SGML",
-					"SortAs": "SGML",
-					"GlossTerm": "Standard Generalized Markup Language",
-					"Acronym": "SGML",
-					"Abbrev": "ISO 8879:1986",
-					"GlossDef": {
-                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["GML", "XML"]
-                    },
-					"GlossSee": "markup"
-                }
-            }
+    "theme": "old",
+    "trackingEnabled": false,
+    "siteId": "MLU",
+    
+    "definitions": [
+        {
+            "tabId": "home",
+            "accesibilityId": "home",
+            "title": "Empezá",
+            "imageName": "search_icon_tabbar",
+            "selectedImageName": "search_icon_tabbar_roll",
+            "rootDeeplink": "meli://home",
+            "isDefault": true
+        },
+        {
+            "tabId": "bookmark",
+            "accesibilityId": "bookmark",
+            "title": "Favoritos",
+            "imageName": "fav_icon_tabbar",
+            "selectedImageName": "fav_icon_tabbar_roll",
+            "rootDeeplink": "meli://bookmarks",
+            "isDefault": false
+        },
+        {
+            "tabId": "purchases",
+            "accesibilityId": "purchases",
+            "title": "Mis Compras",
+            "imageName": "purchases_icon_tabbar",
+            "selectedImageName": "purchases_icon_tabbar_roll",
+            "rootDeeplink": "meli://my_purchases_old",
+            "isDefault": false
+        },
+        {
+            "tabId": "notifications_center",
+            "accesibilityId": "notifications_center",
+            "title": "Notificaciones",
+            "imageName": "notifications_icon_tabbar",
+            "selectedImageName": "notifications_icon_tabbar_roll",
+            "rootDeeplink": "meli://notification_center",
+            "isDefault": false
+        },
+        {
+            "tabId": "more",
+            "accesibilityId": "more",
+            "title": "Más",
+            "imageName": "more_icon_tabbar",
+            "selectedImageName": "more_icon_tabbar_roll",
+            "rootDeeplink": "meli://navigation_sections?page_id=navigation_menu_ml",
+            "isDefault": false
         }
-    }
+    ]
 }
